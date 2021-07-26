@@ -2,9 +2,31 @@
   <head>
     <link rel="stylesheet" href="./styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+      body {background-image: url('assets/burger-friends.jpg');}
+    </style>
+    <title>What's for Dinner</title>
   </head>
   <body>
-    
+    <h2>What's for Dinner?</h2>
+    <section class="choose-your-meal">
+      <form>
+        <p>What are you looking for?</p>
+        <div>
+          <input type="radio" id="foodChoice1" value="Side">
+            <label for="foodChoice1">Side</label>
+          <input type="radio" id="foodChoice2" value="Dinner">
+            <label for="foodChoice2">Dinner</label>
+          <input type="radio" id="foodChoice3" value="Dessert">
+            <label for="foodChoice3">Dessert</label>
+          </div>
+      <section class="button">
+        <button class="lets-cook">Let's Cook</button>
+      </section>
+      <section class="meal-result">
+        <img src="assets/cookpot.svg">
+      </section>
+    </section>
   </body>
   <script type="text/javascript" src="main.js"></script>
 </html>
